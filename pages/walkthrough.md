@@ -20,7 +20,11 @@ To complete this walkthrough, you need a [browser that supports WebGL](https://g
 The style files are stored in a GitHub software repository called tangrams/simple-demo.
 
 1. Navigate to [https://github.com/tangrams/simple-demo](https://github.com/tangrams/simple-demo).
-2. Make a copy of the simple-demo repository. You can choose to download the .zip file from the link on the page, or [clone the repository](https://help.github.com/articles/cloning-a-repository/) using the GitHub client application or command line utilities. Access to the repository is public, so you do not need to be signed in with a GitHub account.
+2. Clone the simple-demo repository. You can choose to download the .zip file from the link on the page, or [clone the repository](https://help.github.com/articles/cloning-a-repository/) using the GitHub client application or command line utilities. Access to the repository is public, so you do not need to be signed in with a GitHub account. 
+
+	![Buttons for cloning on the GitHub website](../images/clone-repo.png)
+
+> Tip: If you are new to GitHub, you can review its documentation at https://help.github.com/ to learn more about how to clone and work with repositories. 
 3. Open the local simple-demo folder and explore the contents.
 
 	![simple-demo repository files](../images/repo-files.png)
@@ -29,7 +33,7 @@ The folder contains some general website and mapping components (such as tools f
 
 ###Set up Tangram to run from your machine
 
-You were viewing the demo on a remote server before, but now you will set it up to run from a web server on your own machine. This will allow you to make changes to the Tangram styles and immediately see the results. To start the server, you will need to enter a few command line instructions using the terminal window. You will need a web server, rather than attempting to open the simple-demo index.html file directly in a browser, because browsers disable JavaScript for security reasons. Using your own server allows you to run the JavaScript and work with the demo properly.
+You were viewing the demo on a remote server before, but now you will set it up to run from a web server on your own machine. This will allow you to make changes to the Tangram styles and immediately see the results. To start the server, you will need to enter a few command line instructions using the terminal window. You will need a web server, rather than attempting to open the simple-demo index.html file directly in a browser. Using your own server allows you to run JavaScript and work with the Tangram demo properly.
 
 When you are running the demo locally, the map styling information (scene.yaml) and the files used to build the webpage (such as index.html) are coming from your machine. However, the underlying map data is vector tiles from Mapzen’s servers.
 
